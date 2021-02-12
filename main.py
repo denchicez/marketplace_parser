@@ -163,8 +163,8 @@ if(URL.find('aliexpress.ru')!=-1):
             break
     filters = filters.replace(f'&maxPrice={max_price}','')
     filters = filters.replace(f'&minPrice={min_price}','')
-    max_price = int(max_price)//74+1
-    min_price = int(min_price)//75-1
+    max_price = int(max_price)//74+2
+    min_price = int(min_price)//75-2
     max_price = str(max_price)
     min_price = str(min_price)
     filters = filters.replace('&page=1','')
