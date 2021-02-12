@@ -205,6 +205,7 @@ if(URL.find('aliexpress.ru')!=-1):
                     was_buy = item['tradeDesc']
                 except:
                     was_buy = 0
+                was_buy=was_buy.replace('Sold','')
                 if((articul in setik)==False):
                     setik.add(articul)
                     products.append({
