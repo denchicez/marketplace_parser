@@ -13,7 +13,7 @@ python <путь до файла> <URL который надо парсить>
 ## Script template 
 ### Script template input
 ```
-https://www.wildberries.ru/catalog/igrushki/dlya-malyshey/kubiki
+python3 main.py https://www.wildberries.ru/catalog/igrushki/dlya-malyshey/kubiki
 ```
 ### Script template output
 ```
